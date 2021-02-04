@@ -1,0 +1,69 @@
+/* General Styling */
+.container, main, .container-fluid {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Nav Styling */
+.nav-link{
+  font-size: x-large;
+  padding: 10px 20px;
+  margin-right: 3em;
+}
+
+nav {
+  background-color: white;
+
+}
+
+/* Home Styling */
+h1 {
+  font-size: 6rem;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#tagline {
+  text-align: center;
+  font-size: 3rem;
+  color: darkorchid;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Projects Styling */
+.carousel-caption {
+  color: darkorchid
+}
+
+/* Skills Styling */
+ion-icon {
+  font-size: 64px;
+  margin-top: 20px;
+}
+
+.progress-bar {
+  /* !important overrides built in color from class */
+  background-color: fuchsia !important;
+}
+
+/* Footer Styling */
+footer {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+ul {
+  /* removes bullet */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 20px;
+}
